@@ -1,0 +1,20 @@
+{
+    "model": "realisticVisionV60B1_v51HyperVAE",
+    "lora": "",
+    "width": 512,
+    "height": 768,
+    "steps": 20,
+    "cfg_scale": 7,
+    "sampler_name": "DPM++ 2M",
+    "hires_fix": true,
+    "hires_upscaler": "Latent",
+    "hires_scale": 1.5,
+    "hires_denoising_strength": 0.55,
+    "refiner": false,
+    "batch_size": 6,
+    "total_images": 50,
+    "seed": -1,
+    "prompt": "mysterious gothic woman in dark room, candlelight, shadow on face, cinematic photography, 8k high detail",
+    "negative_prompt": "blurry, noisy, jpeg artifacts, out of frame, cartoon",
+    "output_dir": "../dark"
+}

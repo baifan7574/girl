@@ -1,0 +1,20 @@
+{
+    "model": "realisticVisionV60B1_v51HyperVAE",
+    "lora": "",
+    "width": 512,
+    "height": 768,
+    "steps": 20,
+    "cfg_scale": 7,
+    "sampler_name": "DPM++ 2M",
+    "hires_fix": true,
+    "hires_upscaler": "Latent",
+    "hires_scale": 1.5,
+    "hires_denoising_strength": 0.55,
+    "refiner": false,
+    "batch_size": 6,
+    "total_images": 50,
+    "seed": -1,
+    "prompt": "portrait of beautiful wet woman, in bathroom, wet hair, skin glistening, cinematic lighting, 8k DSLR photo",
+    "negative_prompt": "blurry, cartoon, unrealistic, watermark, duplicate, deformed face",
+    "output_dir": "../shower"
+}
