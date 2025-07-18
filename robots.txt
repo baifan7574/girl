@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://girl-21r.pages.dev/sitemap.xml
