@@ -8,7 +8,7 @@ import random
 base_dir = Path(".")
 output_dir = base_dir
 keywords_dir = base_dir / "keywords"
-domain = "https://girl-21r.pages.dev"
+domain = "https://girl.gogamefun.com"
 
 exclude_dirs = {"generator", "keywords", "pages"}
 
@@ -83,3 +83,5 @@ with open(base_dir / "sitemap.xml", "w", encoding="utf-8") as f:
     for url in sitemap_entries:
         f.write(f"  <url><loc>{url}</loc><lastmod>{now}</lastmod></url>\n")
     f.write("</urlset>")
+import requests
+requests.get("https://www.google.com/ping?sitemap=https://girl.gogamefun.com/sitemap.xml")
