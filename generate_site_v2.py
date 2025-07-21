@@ -9,7 +9,8 @@ base_dir = Path(".")
 output_dir = base_dir
 keywords_dir = base_dir / "keywords"
 category_css = "style.css"
-domain = "https://yourdomain.com"  # 根据你绑定的域名修改
+domain = "https://girl.gogamefun.com"
+ # 根据你绑定的域名修改
 sitemap_entries = []
 
 exclude_dirs = {"generator", "keywords", "pages", "static"}
