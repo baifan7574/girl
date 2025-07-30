@@ -1,153 +1,16 @@
-<!DOCTYPE html>
+// PopCash 弹窗广告脚本（绑定 UID: 492091，WID: 743249）
+window.addEventListener("load", function () {
+  var uid = '492091';
+  var wid = '743249';
+  var pop_tag = document.createElement('script');
+  pop_tag.src = '//cdn.popcash.net/show.js';
+  pop_tag.async = true;
+  document.body.appendChild(pop_tag);
 
-<html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta content="1566517c032d1bfceb9f15f24232b6f9" name="monetag"/>
-<title>Gentleman’s Frame</title>
-<link href="lightbox.min.css" rel="stylesheet"/>
-<script src="lightbox-plus-jquery.js"></script>
-<style>
-    body {
-      background: #111;
-      color: white;
-      font-family: Georgia, serif;
-      margin: 0;
-    }
-
-    header {
-      text-align: center;
-      padding: 40px 10px 20px;
-    }
-
-    header h1 {
-      font-size: 48px;
-      margin-bottom: 10px;
-    }
-
-    nav {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    nav a {
-      color: #ccc;
-      text-decoration: none;
-      margin: 0 12px;
-      font-size: 18px;
-    }
-
-    .section {
-      padding: 10px 20px;
-    }
-
-    .section h2 {
-      border-bottom: 1px solid #444;
-      margin-bottom: 10px;
-      text-align: center;
-    }
-
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 10px;
-    }
-
-    .gallery img {
-      width: 160px;
-      height: auto;
-      border-radius: 6px;
-      background: #333;
-      cursor: pointer;
-    }
-
-    .more {
-      text-align: center;
-      font-size: 14px;
-      margin-top: 6px;
-    }
-
-    .more a {
-      color: #aaa;
-      text-decoration: none;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      border-top: 1px solid #444;
-      font-size: 14px;
-      color: #888;
-    }
-
-    footer a {
-      color: #888;
-      margin: 0 10px;
-      text-decoration: none;
-    }
-  </style>
-</head>
-<body>
-<header>
-<h1>Gentleman’s Frame</h1>
-<p>For Men Who Appreciate More Than Beauty.</p>
-</header>
-<!-- Dark Section -->
-<div class="section">
-<h2>Dark</h2>
-<div class="gallery"><a data-lightbox="dark" href="dark/girl6.png"><img src="dark/girl6.png"/></a><a data-lightbox="dark" href="dark/girl5.png"><img src="dark/girl5.png"/></a><a data-lightbox="dark" href="dark/girl4.png"><img src="dark/girl4.png"/></a><a data-lightbox="dark" href="dark/girl3.png"><img src="dark/girl3.png"/></a></div>
-<div class="more"><a href="dark.html">→ View More</a></div>
-</div>
-<!-- Office Section -->
-<div class="section">
-<h2>Office</h2>
-<div class="gallery"><a data-lightbox="office" href="office/20250722_095614_50.jpg"><img src="office/20250722_095614_50.jpg"/></a><a data-lightbox="office" href="office/20250722_095614_49.jpg"><img src="office/20250722_095614_49.jpg"/></a><a data-lightbox="office" href="office/20250722_095527_48.jpg"><img src="office/20250722_095527_48.jpg"/></a><a data-lightbox="office" href="office/20250722_095527_47.jpg"><img src="office/20250722_095527_47.jpg"/></a></div>
-<div class="more"><a href="office.html">→ View More</a></div>
-</div>
-<!-- Shower Section -->
-<div class="section">
-<h2>Shower</h2>
-<div class="gallery"><a data-lightbox="shower" href="shower/20250722_101525_50.jpg"><img src="shower/20250722_101525_50.jpg"/></a><a data-lightbox="shower" href="shower/20250722_101525_49.jpg"><img src="shower/20250722_101525_49.jpg"/></a><a data-lightbox="shower" href="shower/20250722_101439_48.jpg"><img src="shower/20250722_101439_48.jpg"/></a><a data-lightbox="shower" href="shower/20250722_101439_47.jpg"><img src="shower/20250722_101439_47.jpg"/></a></div>
-<div class="more"><a href="shower.html">→ View More</a></div>
-</div>
-<!-- Soft Section -->
-<div class="section">
-<h2>Soft</h2>
-<div class="gallery"><a data-lightbox="soft" href="soft/20250722_102658_30.jpg"><img src="soft/20250722_102658_30.jpg"/></a><a data-lightbox="soft" href="soft/20250722_102658_29.jpg"><img src="soft/20250722_102658_29.jpg"/></a><a data-lightbox="soft" href="soft/20250722_102658_28.jpg"><img src="soft/20250722_102658_28.jpg"/></a><a data-lightbox="soft" href="soft/20250722_102658_27.jpg"><img src="soft/20250722_102658_27.jpg"/></a></div>
-<div class="more"><a href="soft.html">→ View More</a></div>
-</div>
-<!-- Uniform Section -->
-<div class="section">
-<h2>Uniform</h2>
-<div class="gallery"><a data-lightbox="uniform" href="uniform/20250721_150727_50.jpg"><img src="uniform/20250721_150727_50.jpg"/></a><a data-lightbox="uniform" href="uniform/20250721_150727_49.jpg"><img src="uniform/20250721_150727_49.jpg"/></a><a data-lightbox="uniform" href="uniform/20250721_150642_48.jpg"><img src="uniform/20250721_150642_48.jpg"/></a><a data-lightbox="uniform" href="uniform/20250721_150642_47.jpg"><img src="uniform/20250721_150642_47.jpg"/></a></div>
-<div class="more"><a href="uniform.html">→ View More</a></div>
-</div>
-<footer>
-<a href="about.html">About Us</a> | 
-  <a href="privacy.html">Privacy Policy</a> | 
-  <a href="contact.html">Contact</a>
-</footer>
-<script>
-  window.addEventListener("load", function () {
-    var s = document.createElement("script");
-    s.src = "https://fpyf8.com/88/tag.min.js";
-    s.async = true;
-    s.setAttribute("data-zone", "156405");
-    s.setAttribute("data-cfasync", "false");
-    document.body.appendChild(s);
-  });
-</script>
-  <script>
-    var uid = '492091';
-    var wid = '743249';
-    var pop_tag = document.createElement('script');
-    pop_tag.src='//cdn.popcash.net/show.js';
-    document.body.appendChild(pop_tag);
-    pop_tag.onerror = function() {
-      pop_tag = document.createElement('script');
-      pop_tag.src='//cdn2.popcash.net/show.js';
-      document.body.appendChild(pop_tag)
-    };
-</body>
-</html>
+  pop_tag.onerror = function () {
+    var fallback = document.createElement('script');
+    fallback.src = '//cdn2.popcash.net/show.js';
+    fallback.async = true;
+    document.body.appendChild(fallback);
+  };
+});
