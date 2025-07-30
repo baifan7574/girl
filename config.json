@@ -1,4 +1,5 @@
 {
   "domain": "https://girl.gogamefun.com/",
-  "category_css": "style.css"
+  "category_css": "style.css",
+  "ad_code": "<script>\n  var uid = '492091';\n  var wid = '743249';\n  var pop_tag = document.createElement('script');\n  pop_tag.src='//cdn.popcash.net/show.js';\n  document.body.appendChild(pop_tag);\n  pop_tag.onerror = function() {\n    pop_tag = document.createElement('script');\n    pop_tag.src='//cdn2.popcash.net/show.js';\n    document.body.appendChild(pop_tag)\n  };\n</script>"
 }
