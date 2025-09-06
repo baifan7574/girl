@@ -1,0 +1,20 @@
+{
+  "model": "realisticVisionV60B1_v51HyperVAE",
+  "lora": "",
+  "width": 512,
+  "height": 768,
+  "steps": 20,
+  "cfg_scale": 7,
+  "sampler_name": "DPM++ 2M",
+  "hires_fix": true,
+  "hires_upscaler": "Latent",
+  "hires_scale": 1.5,
+  "hires_denoising_strength": 0.55,
+  "refiner": false,
+  "batch_size": 6,
+  "total_images": 50,
+  "seed": -1,
+  "prompt": "photo-realistic, ultra-detailed, cinematic portrait, 9:16 vertical, \nbeautiful young woman, elegant and attractive, natural beauty, \nsymmetrical face, soft smooth skin, realistic skin texture, \nhighly detailed eyes, sharp iris, glossy lips, natural nose, \nrealistic facial expression, subtle makeup, soft eyeliner, natural blush, \nperfect lighting balance, professional photography style, \nbokeh background, depth of field, cinematic color grading, \nsoft studio light, rim light on hair, warm skin tone, \nsharp focus, award-winning portrait photo, soft flash photography, soft style gildan color chart, cool film grain, natural loose hair, elegant mini dress, natural skin tone, cool film grain, sensual vibe, elegant posture, tasteful composition",
+  "negative_prompt": "lowres, bad skin, overexposure, distortion, poorly drawn",
+  "output_dir": "../soft"
+}
